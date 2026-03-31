@@ -1,11 +1,4 @@
 def shrink_guest_list(guests: list[str]) -> list[str]:
-    """
-    Reduz a lista para apenas dois convidados.
+    update = guests.copy()
 
-    Args:
-        guests (list[str]): lista original
-
-    Returns:
-        list[str]: lista com apenas dois elementos
-    """
-    pass
+    return update[:2]
